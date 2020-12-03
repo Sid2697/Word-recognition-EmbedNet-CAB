@@ -15,18 +15,18 @@ import numpy as np
 import torch.nn as nn
 from tqdm import tqdm
 from models import EmbedNet
-from online_triplets import Triplets
+from triplets import Triplets
 import torch.nn.functional as F
 import torch.utils.data as data
 from torch.utils.data import DataLoader
-from torch.utils.tensorboard import SummaryWriter
 
 torch.backends.cudnn.enabled = False
 torch.backends.cudnn.benchmark = False
 
 parser = argparse.ArgumentParser(description='Neural Networks for word recognition')
 # File paths and directory names
-parser.add_argument('--base_dir', default='/ssd_scratch/cvit/sid/', help='Path to the directory for saving models')
+parser.add_argument('--base_dir', default='trained', help='Path to the directory for saving models')
+parser.add_argument('--model_dir', default='EmbedNet_models', help='Name of the folder for saving trained models')
 
 # Various model hyperparameters
 parser.add_argument('--train_percentage', type=float, default=0.8, help='Percentage of data to use for training')
@@ -38,39 +38,35 @@ parser.add_argument('--margin', type=float, default=1, help='Triplet Loss margin
 parser.add_argument('--hidden_layers', nargs='+', type=int, default=[1024, 512, 256, 128], help='List of input size of the hidden layers')
 
 parser.add_argument('--gpu_id', default=0, type=int, help='Specify which GPU to use')
-parser.add_argument('--image_embeds', default='/ssd_scratch/cvit/sid/embeddings/image_embeds_top_k_allfeatsImg.npy', help='Path to the image embeddings')
-parser.add_argument('--text_embeds', default='/ssd_scratch/cvit/sid/embeddings/top_preds_embeds_all_featsSynth.dat', help='Path to the text embeddigns')
-parser.add_argument('--image_info', default='/ssd_scratch/cvit/sid/EmbedGenFiles/image_embed_top_k_all.txt', help='Path to the file containing word image information')
-parser.add_argument('--text_info', default='/ssd_scratch/cvit/sid/EmbedGenFiles/top_preds_embeds_all_with_confidence.txt', help='Path to the file containing text output information')
+parser.add_argument('--image_embeds', default='embeddings/topk_preds_100featsImg.npy', help='Path to the image embeddings')
+parser.add_argument('--topk_embeds', default='embeddings/topk_preds_100featsSynth.npy', help='Path to the text embeddigns')
+parser.add_argument('--image_file', default='gen_files/image_embed_top_k_100.txt', help='Path to the file containing word image information')
+parser.add_argument('--predictions_file', default='gen_files/top_preds_embeds_100_with_conf.txt', help='Path to the file containing text output information')
 args = parser.parse_args()
 print(args)
 
 print('[INFO] Loading embeddings and text files...')
 image_embeds = np.load(args.image_embeds)
 try:
-    topk_embeds = np.load(args.text_embeds)
+    topk_embeds = np.load(args.topk_embeds)
 except Exception as e:
     print('[INFO] Loading text embeddings in memmap mode...')
-    topk_embeds = np.memmap(args.text_embeds, dtype=np.float32, mode='r', shape=(2109500, 2048))
+    topk_embeds = np.memmap(args.topk_embeds, dtype=np.float32, mode='r', shape=(2109500, 2048))
 
-with open(args.image_info, 'r') as image_file:
-    image_info = image_file.readlines()
-image_info = [item.split()[1] for item in image_info]
+with open(args.image_file, 'r') as image_file:
+    image_file = image_file.readlines()
+image_file = [item.split()[1] for item in image_file]
 
-with open(args.text_info, 'r') as text_file:
-    text_info = text_file.readlines()
-topk_info = [item.split()[1] for item in text_info]
+with open(args.predictions_file, 'r') as text_file:
+    predictions_file = text_file.readlines()
+topk_info = [item.split()[1] for item in predictions_file]
 
 assert args.model_name, "Provide a model name for proceeding"
 epochs = args.epochs
 lr = args.lr
-writer_path = 'logs/' + args.model_name
-writer = SummaryWriter(writer_path)
-model_dir = 'EmbedNet/EmbedNet_models'
-train_list_dir = 'EmbedNet'
-assert os.path.exists(os.path.join(args.base_dir, train_list_dir)), "Train data directory does not exists, create one using data_prep.py"
+model_dir = args.model_dir
 if not os.path.exists(os.path.join(args.base_dir, model_dir)):
-    os.mkdir(os.path.join(args.base_dir, model_dir))
+    os.makedirs(os.path.join(args.base_dir, model_dir))
 
 if torch.cuda.device_count() > 1:    
     torch.cuda.set_device(args.gpu_id)
@@ -115,22 +111,7 @@ def get_dataloaders(train_list):
     return train_data_loader, val_data_loader
 
 
-def calculate_accuracy(model_path):
-    print("[INFO] Calculating current model's accuracy...")
-    temp_model_path = os.path.join(model_path, args.model_name + '_temp.pkl')
-    hidden_string = str(args.hidden_layers).replace(',', ' ').replace('[', '').replace(']', '')
-    try:
-        command = 'python parallel_word_rec_EmbedNet.py --use_model --hidden_layers {} --model_path {}  --testing --test_split 0.75858 > {}.txt'.format(hidden_string, temp_model_path, args.model_name)
-    except Exception as e:
-        print(e)
-        pdb.set_trace()
-    os.system(command)
-    data = open('{}.txt'.format(args.model_name), 'r').readlines()
-    accuracy = data[0].split()[-1]
-    return float(accuracy)
-
-
-triplet = Triplets(topk_info, image_info, topk_embeds, image_embeds, args.train_percentage, args.margin, verbose=True)
+triplet = Triplets(topk_info, image_file, topk_embeds, image_embeds, args.train_percentage, args.margin, verbose=True)
 train_list = triplet.initial_list()
 
 train_data_loader, val_data_loader = get_dataloaders(train_list)
@@ -176,6 +157,8 @@ for epoch in range(epochs):
             anchor = anchor.cuda().double()
             positive = positive.cuda().double()
             negative = negative.cuda().double()
+        else:
+            model = model.double()
         model.zero_grad()
         anchor_ = model(anchor)
         positive_ = model(positive)
@@ -185,8 +168,6 @@ for epoch in range(epochs):
         tr_loss.backward()
         optimizer.step()          
         train_loss_per_epoch += float(tr_loss)
-        writer.add_scalar('Train Loss/Batch', float(tr_loss), train_batch_count)
-    writer.add_scalar('Train Loss/Epoch', train_loss_per_epoch, epoch)
     for data_point in tqdm(val_data_loader, desc='[INFO] Validation'):
         validation_batch_count += 1
         anchor = data_point['anchor']
@@ -203,26 +184,15 @@ for epoch in range(epochs):
         negative_ = model(negative)  
         val_loss = criterion(anchor_, positive_, negative_)
         val_loss_per_epoch += float(val_loss)
-        writer.add_scalar('Validation Loss/Batch', float0(val_loss), validation_batch_count)
-    writer.add_scalar('Validation Loss/Epoch', val_loss_per_epoch, epoch)
-    # Saving model based on the current accuracy
-    save_checkpoint(os.path.join(args.base_dir, model_dir), epoch, model, optimizer, temp=True)
-    updated_accuracy = calculate_accuracy(os.path.join(args.base_dir, model_dir))
-    writer.add_scalar('Word Accuracy/Epoch', updated_accuracy, epoch)
-    if updated_accuracy > accuracy:
-        accuracy = updated_accuracy
-        save_checkpoint(os.path.join(args.base_dir, model_dir), epoch, model, optimizer, accuracy=True)
-        model_saved_epoch = epoch + 1
     if val_loss_per_epoch < base_valid:
         base_valid = val_loss_per_epoch
         save_checkpoint(os.path.join(args.base_dir, model_dir), epoch, model, optimizer)
-    print('[INFO] Train Loss {}, validation loss {} accuracy {}.'.format(round(train_loss_per_epoch, 3), round(val_loss_per_epoch, 3), round(updated_accuracy, 3)))
+    print('[INFO] Train Loss {}, validation loss {}.'.format(round(train_loss_per_epoch, 3), round(val_loss_per_epoch, 3)))
     if (epoch + 1) - model_saved_epoch >= 5:
         print('[INFO] Updating the train and validation list...')
-        updated_list, new_hard_neg_number = triplet.EmbedNet_embeds(model, 128)
+        updated_list, new_hard_neg_number = triplet.embednet_embeds(model, 128)
         if new_hard_neg_number < old_hard_neg_number:
             save_checkpoint(os.path.join(args.base_dir, model_dir), epoch, model, optimizer, hard=True)
             old_hard_neg_number = new_hard_neg_number
         train_data_loader, val_data_loader = get_dataloaders(updated_list)
         model_saved_epoch = epoch + 1
-    writer.add_scalars('Training Curves', {'Train Loss': train_loss_per_epoch, 'Validation Loss': val_loss_per_epoch}, epoch)

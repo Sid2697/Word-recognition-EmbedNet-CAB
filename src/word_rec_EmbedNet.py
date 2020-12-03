@@ -158,16 +158,3 @@ for i in range(args.k):     # Looping over top k predictions
 accuracyList = [round(item, 3) for item in accuracyList]
 print('[INFO] Top {} accuracies are: {}.'.format(len(accuracyList), accuracyList))
 print('[INFO] Number of words tested on {}.'.format(total))
-
-# Command using for generating final new results (02/12/20)
-# python3 src/word_rec_EmbedNet.py --image_embeds embeddings/topk_preds_100featsImg.npy --topk_embeds embeddings/topk_preds_100featsSynth.npy --predictions_file gen_files/top_preds_embeds_100_with_conf.txt --image_file gen_files/image_embed_top_k_100.txt --use_model  --model_path /ssd_scratch/cvit/sid/WNet1AdamLR000001EXTOnGen1MarginNoConfidence240620.pkl --hidden_layers 1024 --test_split 1 --testing
-# Command updated on 03/12/20
-# python3 src/word_rec_EmbedNet.py  --use_model  --hidden_layers 1024
-# Command for running baseline model
-# python3 src/word_rec_EmbedNet.py
-# Command for running model using the confidence scores
-# python3 src/word_rec_EmbedNet.py --use_confidence
-# Command for running model using the EmbedNet
-# python3 src/word_rec_EmbedNet.py --use_confidence --use_model --hidden_layers 1024
-# Command for running model using EmbedNet and CAB
-# python3 src/word_rec_EmbedNet.py --use_confidence --use_model --hidden_layers 1024 --cab

@@ -48,8 +48,6 @@ class EmbedNet(nn.Module):
         self.hidden_layers = hidden_layers
         self.layers = nn.ModuleList()
         current_dim = self.in_features
-        # if self.hidden_layers[-1] != out_features:
-        #     print('[INFO] Last hidden layer output and final layer output is different.')
         for hidden_dim in self.hidden_layers:
             self.layers.append(nn.Linear(current_dim, hidden_dim))
             current_dim = hidden_dim

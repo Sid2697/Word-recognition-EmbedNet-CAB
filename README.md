@@ -41,12 +41,18 @@ The deep embeddings used in this work are generated using the End2End network pr
 ```
 Krishnan, P., Dutta, K., Jawahar, C.V.: Word spotting and recognition using deep embedding. In: 2018 13th IAPR International Workshop on Document Analysis Systems (DAS). pp. 1–6 (April 2018). https://doi.org/10.1109/DAS.2018.70
 ```
-Word text and image's deep embeddings for testing this repository are provided in the ```embeddings``` folder.
+Word text and image's deep embeddings for testing this repository are provided in the ``embeddings`` folder.
 Text files containing the information about the embeddings are required while running the code. They are in the format<br>
-```<img1-path><space><text1-string><space><dummyInt><space>1```<br>
-```<img2-path><space><text2-string><space><dummyInt><space>1```<br>
-...<br>
-Corresponding text files for testing this repository are provided in the ``gen_files`` folder.
+```
+<img1-path><space><text1-string><space><dummyInt><space>1
+<img2-path><space><text2-string><space><dummyInt><space>1
+...
+```
+One can refer to and use [https://github.com/kris314/hwnet](https://github.com/kris314/hwnet) for generating embeddings.
+
+For the purpose of making it easier to explore the code in this repository, sample text files and embeddings are provided in ``gen_files`` and ``embeddings``, respectively.
+
+Original Dataset used in this work will be released by [CVIT](http://cvit.iiit.ac.in) soon.
 
 ### Performing word recognition (using a pre-trained EmbedNet)
 Pre-trained EmbedNet models are saved in the ``models`` folder.<br>
@@ -102,7 +108,47 @@ Other arguments for word recognition experiment are:
 - `k` total number of predictions to test on (max 20)
 
 ### Training EmbedNet
-TODO
+Prepare text files and embeddings as mentioned in [Generating/using deep embeddings](#Generating/using-deep-embeddings). Refer files in folder ``gen_files`` for text file's examples. Once the embeddings are prepared run the following command
+```sh
+python src/EmbedNet_train.py --model_name provide_a_name_of_your_choice
+```
+For the purpose of a demonstration, you can run the following command
+```sh
+python src/EmbedNet_train.py --model_name temp
+```
+This will start training an EmbedNet for 1000 epochs and save the models in `trained/EmbedNet_models`.
+
+Other arguments for `EmbedNet_train.py` are:
+```sh
+--base_dir
+--model_dir
+--train_percentage
+--epochs
+--lr
+--batch
+--model_name
+--margin
+--hidden_layers
+--gpu_id
+--image_embeds
+--topk_embeds
+--image_file
+--predictions_file
+```
+- `base_dir` is a path to the directory for saving models
+- `model_dir` is a name of the folder for saving trained models
+- `train_percentage` percentage of data to use for training
+- `epochs` number of epochs to train for
+- `lr` learning rate
+- `batch` batch size
+- `model_name` name of the model for saving
+- `margin` triplet loss margin
+- `hidden_layers` list of input size of the hidden layers
+- `gpu_id` specify which GPU to use
+- `image_embeds` is used to provide path to the image embeddings
+- `topk_embeds` is used to provide path to the TopK predictions' embeddings
+- `image_file` is used to provide path to the image's text information file
+- `predictions_file` is used to provide path to the TopK predictions' text information file
 
 License and Citation
 ---------------------
