@@ -25,7 +25,7 @@ git clone https://github.com/Sid2697/Word-recognition-EmbedNet-CAB.git
 cd Word-recognition-EmbedNet-CAB
 ```
 ### Install Pre-requisites
-- Python >= 3.5
+- Python == 3.7
 - PyTorch
 - Scikit-learn
 - NumPy
