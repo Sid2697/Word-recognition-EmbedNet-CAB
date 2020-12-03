@@ -36,7 +36,7 @@ cd Word-recognition-EmbedNet-CAB
 ```sh
 pip install -r requirements.txt
 ```
-### Generating/using deep embeddings
+### Generating deep embeddings
 The deep embeddings used in this work are generated using the End2End network proposed in:
 ```
 Krishnan, P., Dutta, K., Jawahar, C.V.: Word spotting and recognition using deep embedding. In: 2018 13th IAPR International Workshop on Document Analysis Systems (DAS). pp. 1–6 (April 2018). https://doi.org/10.1109/DAS.2018.70
@@ -108,7 +108,7 @@ Other arguments for word recognition experiment are:
 - `k` total number of predictions to test on (max 20)
 
 ### Training EmbedNet
-Prepare text files and embeddings as mentioned in [Generating/using deep embeddings](#Generating/using-deep-embeddings). Refer files in folder ``gen_files`` for text file's examples. Once the embeddings are prepared run the following command
+Prepare text files and embeddings as mentioned in [Generating deep embeddings](#Generating-deep-embeddings). Refer files in folder ``gen_files`` for text file's examples. Once the embeddings are prepared run the following command
 ```sh
 python src/EmbedNet_train.py --model_name provide_a_name_of_your_choice
 ```
