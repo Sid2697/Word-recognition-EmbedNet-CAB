@@ -1,0 +1,3555 @@
+
+=====
+Time of saving: 1592997216.1800873
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 0
+
+=====
+Time of saving: 1592997272.3229756
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 0
+
+=====
+Time of saving: 1592997272.367104
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 0
+
+=====
+Time of saving: 1592997420.7366977
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 1
+
+=====
+Time of saving: 1592997465.9873633
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 1
+
+=====
+Time of saving: 1592997466.0382035
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 1
+
+=====
+Time of saving: 1592997614.1298957
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 2
+
+=====
+Time of saving: 1592997652.4952157
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 2
+
+=====
+Time of saving: 1592997652.545351
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 2
+
+=====
+Time of saving: 1592997800.0519254
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 3
+
+=====
+Time of saving: 1592997839.8974516
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 3
+
+=====
+Time of saving: 1592997839.9543252
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 3
+
+=====
+Time of saving: 1592997987.829685
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 4
+
+=====
+Time of saving: 1592998030.0475662
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 4
+
+=====
+Time of saving: 1592998030.0995634
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 4
+
+=====
+Time of saving: 1592998177.5430412
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 5
+
+=====
+Time of saving: 1592998215.5382397
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 5
+
+=====
+Time of saving: 1592998215.590326
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 5
+
+=====
+Time of saving: 1592998363.6981778
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 6
+
+=====
+Time of saving: 1592998400.4885442
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 6
+
+=====
+Time of saving: 1592998547.9154105
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 7
+
+=====
+Time of saving: 1592998585.657669
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 7
+
+=====
+Time of saving: 1592998733.4105117
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 8
+
+=====
+Time of saving: 1592998774.2276018
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 8
+
+=====
+Time of saving: 1592998921.5931935
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 9
+
+=====
+Time of saving: 1592998959.7585535
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 9
+
+=====
+Time of saving: 1592999107.5799294
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 10
+
+=====
+Time of saving: 1592999144.6680653
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 10
+
+=====
+Time of saving: 1592999144.7200484
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 10
+
+=====
+Time of saving: 1592999292.349568
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 11
+
+=====
+Time of saving: 1592999329.7020628
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 11
+
+=====
+Time of saving: 1592999477.6570888
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 12
+
+=====
+Time of saving: 1592999515.019885
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 12
+
+=====
+Time of saving: 1592999515.071751
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 12
+
+=====
+Time of saving: 1592999662.8629668
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 13
+
+=====
+Time of saving: 1592999704.772564
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 13
+
+=====
+Time of saving: 1592999852.473983
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 14
+
+=====
+Time of saving: 1592999893.9681401
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 14
+
+=====
+Time of saving: 1593000041.7473845
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 15
+
+=====
+Time of saving: 1593000227.792521
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 16
+
+=====
+Time of saving: 1593000415.484275
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 17
+
+=====
+Time of saving: 1593000497.690686
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 17
+
+=====
+Time of saving: 1593000560.1063275
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 18
+
+=====
+Time of saving: 1593000603.032737
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 18
+
+=====
+Time of saving: 1593000603.0809543
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 18
+
+=====
+Time of saving: 1593000664.9283679
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 19
+
+=====
+Time of saving: 1593000705.5972486
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 19
+
+=====
+Time of saving: 1593000705.646312
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 19
+
+=====
+Time of saving: 1593000767.6711533
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 20
+
+=====
+Time of saving: 1593000810.6034112
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 20
+
+=====
+Time of saving: 1593000872.504623
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 21
+
+=====
+Time of saving: 1593000913.7971506
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 21
+
+=====
+Time of saving: 1593000975.8496003
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 22
+
+=====
+Time of saving: 1593001015.243038
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 22
+
+=====
+Time of saving: 1593001077.3547091
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 23
+
+=====
+Time of saving: 1593001116.543701
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 23
+
+=====
+Time of saving: 1593001178.4068263
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 24
+
+=====
+Time of saving: 1593001221.5214627
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 24
+
+=====
+Time of saving: 1593001267.9665692
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 24
+
+=====
+Time of saving: 1593001318.328082
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 25
+
+=====
+Time of saving: 1593001358.0367138
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 25
+
+=====
+Time of saving: 1593001408.2883654
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 26
+
+=====
+Time of saving: 1593001448.027292
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 26
+
+=====
+Time of saving: 1593001498.5582356
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 27
+
+=====
+Time of saving: 1593001537.8413255
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 27
+
+=====
+Time of saving: 1593001588.7561576
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 28
+
+=====
+Time of saving: 1593001629.0159123
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 28
+
+=====
+Time of saving: 1593001679.6703677
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 29
+
+=====
+Time of saving: 1593001721.2751436
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 29
+
+=====
+Time of saving: 1593001769.4086137
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 29
+
+=====
+Time of saving: 1593001816.482709
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 30
+
+=====
+Time of saving: 1593001855.8334732
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 30
+
+=====
+Time of saving: 1593001902.9754457
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 31
+
+=====
+Time of saving: 1593001946.7027411
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 31
+
+=====
+Time of saving: 1593001993.5755873
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 32
+
+=====
+Time of saving: 1593002035.9776356
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 32
+
+=====
+Time of saving: 1593002083.2351794
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 33
+
+=====
+Time of saving: 1593002123.3522985
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 33
+
+=====
+Time of saving: 1593002170.356513
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 34
+
+=====
+Time of saving: 1593002215.30462
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 34
+
+=====
+Time of saving: 1593002262.302094
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 34
+
+=====
+Time of saving: 1593002306.225785
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 35
+
+=====
+Time of saving: 1593002347.2996778
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 35
+
+=====
+Time of saving: 1593002391.044132
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 36
+
+=====
+Time of saving: 1593002433.8836637
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 36
+
+=====
+Time of saving: 1593002477.7304642
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 37
+
+=====
+Time of saving: 1593002517.0587816
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 37
+
+=====
+Time of saving: 1593002561.017901
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 38
+
+=====
+Time of saving: 1593002600.3944457
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 38
+
+=====
+Time of saving: 1593002644.225914
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 39
+
+=====
+Time of saving: 1593002735.780486
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 39
+
+=====
+Time of saving: 1593002777.1640496
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 40
+
+=====
+Time of saving: 1593002817.2224422
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 40
+
+=====
+Time of saving: 1593002858.3943648
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 41
+
+=====
+Time of saving: 1593002896.5360994
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 41
+
+=====
+Time of saving: 1593002937.6271544
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 42
+
+=====
+Time of saving: 1593003018.1172976
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 43
+
+=====
+Time of saving: 1593003057.272485
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 43
+
+=====
+Time of saving: 1593003098.390943
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 44
+
+=====
+Time of saving: 1593003139.8485367
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 44
+
+=====
+Time of saving: 1593003185.12927
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 44
+
+=====
+Time of saving: 1593003223.511737
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 45
+
+=====
+Time of saving: 1593003266.9696605
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 45
+
+=====
+Time of saving: 1593003305.041915
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 46
+
+=====
+Time of saving: 1593003348.3070326
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 46
+
+=====
+Time of saving: 1593003386.487551
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 47
+
+=====
+Time of saving: 1593003428.2687461
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 47
+
+=====
+Time of saving: 1593003466.4428363
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 48
+
+=====
+Time of saving: 1593003505.2882912
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 48
+
+=====
+Time of saving: 1593003543.3922868
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 49
+
+=====
+Time of saving: 1593003581.854008
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 49
+
+=====
+Time of saving: 1593003628.3740838
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 49
+
+=====
+Time of saving: 1593003663.8769543
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 50
+
+=====
+Time of saving: 1593003702.9782436
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 50
+
+=====
+Time of saving: 1593003738.2909067
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 51
+
+=====
+Time of saving: 1593003812.3060215
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 52
+
+=====
+Time of saving: 1593003886.986342
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 53
+
+=====
+Time of saving: 1593003960.0889363
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 54
+
+=====
+Time of saving: 1593004049.082137
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 54
+
+=====
+Time of saving: 1593004082.4511483
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 55
+
+=====
+Time of saving: 1593004123.976826
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 55
+
+=====
+Time of saving: 1593004157.3372326
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 56
+
+=====
+Time of saving: 1593004230.5551014
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 57
+
+=====
+Time of saving: 1593004305.4433503
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 58
+
+=====
+Time of saving: 1593004381.443063
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 59
+
+=====
+Time of saving: 1593004468.1378288
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 59
+
+=====
+Time of saving: 1593004500.8371096
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 60
+
+=====
+Time of saving: 1593004540.4921067
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 60
+
+=====
+Time of saving: 1593004572.8181524
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 61
+
+=====
+Time of saving: 1593004614.3609257
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 61
+
+=====
+Time of saving: 1593004646.914913
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 62
+
+=====
+Time of saving: 1593004684.5861042
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 62
+
+=====
+Time of saving: 1593004717.2929657
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 63
+
+=====
+Time of saving: 1593004789.68608
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 64
+
+=====
+Time of saving: 1593004878.805667
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 64
+
+=====
+Time of saving: 1593004909.330801
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 65
+
+=====
+Time of saving: 1593004949.3166559
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 65
+
+=====
+Time of saving: 1593004979.9564698
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 66
+
+=====
+Time of saving: 1593005053.5108726
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 67
+
+=====
+Time of saving: 1593005123.1906903
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 68
+
+=====
+Time of saving: 1593005193.1601605
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 69
+
+=====
+Time of saving: 1593005278.5488281
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 69
+
+=====
+Time of saving: 1593005307.8695488
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 70
+
+=====
+Time of saving: 1593005346.1847959
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 70
+
+=====
+Time of saving: 1593005375.5132625
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 71
+
+=====
+Time of saving: 1593005443.764758
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 72
+
+=====
+Time of saving: 1593005512.0862753
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 73
+
+=====
+Time of saving: 1593005581.1407151
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 74
+
+=====
+Time of saving: 1593005665.0760276
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 74
+
+=====
+Time of saving: 1593005692.7875466
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 75
+
+=====
+Time of saving: 1593005730.9064374
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 75
+
+=====
+Time of saving: 1593005758.4982708
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 76
+
+=====
+Time of saving: 1593005828.83841
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 77
+
+=====
+Time of saving: 1593005867.0029638
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 77
+
+=====
+Time of saving: 1593005894.6533039
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 78
+
+=====
+Time of saving: 1593005961.1457405
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 79
+
+=====
+Time of saving: 1593006046.6662123
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 79
+
+=====
+Time of saving: 1593006072.9612749
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 80
+
+=====
+Time of saving: 1593006112.4458184
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 80
+
+=====
+Time of saving: 1593006139.3840764
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 81
+
+=====
+Time of saving: 1593006182.2587652
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 81
+
+=====
+Time of saving: 1593006209.172262
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 82
+
+=====
+Time of saving: 1593006275.4837077
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 83
+
+=====
+Time of saving: 1593006341.0479045
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 84
+
+=====
+Time of saving: 1593006426.0017118
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 84
+
+=====
+Time of saving: 1593006450.9341538
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 85
+
+=====
+Time of saving: 1593006489.682259
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 85
+
+=====
+Time of saving: 1593006514.6252134
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 86
+
+=====
+Time of saving: 1593006578.407039
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 87
+
+=====
+Time of saving: 1593006641.6716897
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 88
+
+=====
+Time of saving: 1593006706.0932047
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 89
+
+=====
+Time of saving: 1593006790.8154762
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 89
+
+=====
+Time of saving: 1593006814.9235394
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 90
+
+=====
+Time of saving: 1593006853.9292316
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 90
+
+=====
+Time of saving: 1593006877.9926522
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 91
+
+=====
+Time of saving: 1593006916.990863
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 91
+
+=====
+Time of saving: 1593006940.9189813
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 92
+
+=====
+Time of saving: 1593007006.7778466
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 93
+
+=====
+Time of saving: 1593007072.8785226
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 94
+
+=====
+Time of saving: 1593007159.454488
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 94
+
+=====
+Time of saving: 1593007182.1514814
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 95
+
+=====
+Time of saving: 1593007222.0403361
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 95
+
+=====
+Time of saving: 1593007244.9713619
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 96
+
+=====
+Time of saving: 1593007284.7440188
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 96
+
+=====
+Time of saving: 1593007307.645982
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 97
+
+=====
+Time of saving: 1593007347.9645588
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 97
+
+=====
+Time of saving: 1593007370.916135
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 98
+
+=====
+Time of saving: 1593007434.9703557
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 99
+
+=====
+Time of saving: 1593007521.4054067
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 99
+
+=====
+Time of saving: 1593007543.7815955
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 100
+
+=====
+Time of saving: 1593007583.297098
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 100
+
+=====
+Time of saving: 1593007605.7438097
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 101
+
+=====
+Time of saving: 1593007667.9969847
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 102
+
+=====
+Time of saving: 1593007729.5571728
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 103
+
+=====
+Time of saving: 1593007791.8792737
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 104
+
+=====
+Time of saving: 1593007876.1306775
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 104
+
+=====
+Time of saving: 1593007897.7888942
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 105
+
+=====
+Time of saving: 1593007937.5333922
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 105
+
+=====
+Time of saving: 1593007959.2761126
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 106
+
+=====
+Time of saving: 1593008022.2862995
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 107
+
+=====
+Time of saving: 1593008081.7644815
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 108
+
+=====
+Time of saving: 1593008142.3147604
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 109
+
+=====
+Time of saving: 1593008226.1133077
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 109
+
+=====
+Time of saving: 1593008247.7457151
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 110
+
+=====
+Time of saving: 1593008309.352278
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 111
+
+=====
+Time of saving: 1593008369.9011037
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 112
+
+=====
+Time of saving: 1593008430.0904279
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 113
+
+=====
+Time of saving: 1593008494.3592165
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 114
+
+=====
+Time of saving: 1593008582.6076536
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 114
+
+=====
+Time of saving: 1593008602.445858
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 115
+
+=====
+Time of saving: 1593008641.1753457
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 115
+
+=====
+Time of saving: 1593008660.8675306
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 116
+
+=====
+Time of saving: 1593008719.3626053
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 117
+
+=====
+Time of saving: 1593008757.0819383
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 117
+
+=====
+Time of saving: 1593008777.0041764
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 118
+
+=====
+Time of saving: 1593008836.809932
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 119
+
+=====
+Time of saving: 1593008921.582951
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 119
+
+=====
+Time of saving: 1593008941.5371375
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 120
+
+=====
+Time of saving: 1593009003.7635741
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 121
+
+=====
+Time of saving: 1593009063.968642
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 122
+
+=====
+Time of saving: 1593009126.9375803
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 123
+
+=====
+Time of saving: 1593009185.6618524
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 124
+
+=====
+Time of saving: 1593009270.471528
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 124
+
+=====
+Time of saving: 1593009288.8949535
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 125
+
+=====
+Time of saving: 1593009328.717404
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 125
+
+=====
+Time of saving: 1593009347.424489
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 126
+
+=====
+Time of saving: 1593009388.2833843
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 126
+
+=====
+Time of saving: 1593009406.9238846
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 127
+
+=====
+Time of saving: 1593009444.5976653
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 127
+
+=====
+Time of saving: 1593009463.1855288
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 128
+
+=====
+Time of saving: 1593009522.7280188
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 129
+
+=====
+Time of saving: 1593009612.2337756
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 129
+
+=====
+Time of saving: 1593009631.2018733
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 130
+
+=====
+Time of saving: 1593009692.0096009
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 131
+
+=====
+Time of saving: 1593009754.3488975
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 132
+
+=====
+Time of saving: 1593009812.8632066
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 133
+
+=====
+Time of saving: 1593009869.2354753
+
+=====
+Model: WordNet(
+  (layers): ModuleList(
+    (0): Linear(in_features=2048, out_features=1024, bias=True)
+    (1): Linear(in_features=1024, out_features=128, bias=True)
+  )
+  (prelu): PReLU(num_parameters=1)
+)
+
+=====
+Epoch: 134
