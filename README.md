@@ -3,7 +3,7 @@ Improving Word Recognition using Multiple Hypotheses and Deep Embeddings
 [![arXiv](https://img.shields.io/badge/cs.cv-arXiv%3A2010.14411-42ba94.svg)](http://arxiv.org/abs/2010.14411)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-### [Project page](https://sid2697.github.io/embednet_cab/) | [Paper](https://arxiv.org/pdf/2010.14411.pdf) | Poster (Coming soon!)
+### [Project page](https://sid2697.github.io/embednet_cab/) | [Paper](https://arxiv.org/pdf/2010.14411.pdf) | [Video](https://youtu.be/T_TYL-_HpbY)
 
 This repository contains code for the paper
 
